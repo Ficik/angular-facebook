@@ -1,0 +1,1 @@
+angular.module("angular-facebook", ["angular-facebook-plugins", "angular-facebook-sdk"]);

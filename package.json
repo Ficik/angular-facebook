@@ -1,0 +1,22 @@
+{
+  "name": "angular-facebook",
+  "version": "0.0.1",
+  "description": "Angularjs module for facebook social plugins",
+  "main": "angular-facebook.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4",
+    "grunt-contrib-uglify" : "~0.2",
+    "grunt-contrib-watch" : "~0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angularjs",
+    "facebook",
+    "social-plugin"
+  ],
+  "author": "Standa Fifik <standa.fifik@gmail.com>",
+  "license": "MIT"
+}
