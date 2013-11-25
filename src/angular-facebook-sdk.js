@@ -2,7 +2,7 @@ angular.module("angular-facebook-sdk",[])
 	.factory("facebook", ["$rootScope", function($rootScope){
 		var facebook = {};
 		facebook.config = {
-			appId		: 388862497906723,
+			appId		: 0,
 			channelUrl	: undefined,
 			language	: "en_US",
 			status		: true,
@@ -21,7 +21,6 @@ angular.module("angular-facebook-sdk",[])
 				if (js.onload.first){
 					js.onload.first = false;
 					FB.init(facebook.config);
-					console.log("FacebookLoaded");
 					$rootScope.$broadcast("FacebookLoaded");
 				}
 			};

@@ -5,7 +5,6 @@ var socialWidget = function(attributes){
 			scope: true,
 			controller: ["$element", "$attrs", "$scope", function($element, $attrs, $scope) {
 				$scope.$attrs = $attrs;
-				console.log($attrs);
 				var change = false;
 				var reloadFB = function(){
 					if (change){
